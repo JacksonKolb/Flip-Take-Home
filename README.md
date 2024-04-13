@@ -30,7 +30,7 @@ This script handles the building of the Docker image and starts the application 
 ## Design Decisions
 
 ### State Management Pattern
-- **Why we used it**: We chose the state management pattern to manage the user interactions step-by-step. It helps keep the code organized, especially when dealing with a bunch of different user input stages.
+- **Why we used it**: I chose the state management pattern to manage the user interactions step-by-step. It helps keep the code organized, especially when dealing with a bunch of different user input stages.
 - **What's good about it**:
   - **Keeps things separate**: Each state like `GreetState` and `OrderState` handles its own thing. This makes it easier to understand and manage.
   - **Easy to add more**: Adding new steps or types of interactions is straightforward, which is great for future updates.
