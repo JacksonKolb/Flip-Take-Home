@@ -1,6 +1,8 @@
 # Pizza Assistant
 
 This is a simple Python application that assists users in ordering pizzas through a command-line interface.
+
+Time taken was roughly 3 hours, but I was eating lunch at one point so maybe closer to 2ish.
  
 ## Getting Started
 
