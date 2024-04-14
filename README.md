@@ -50,6 +50,8 @@ This script handles the building of the Docker image and starts the application 
 
 ## Possible Improvements
 
+**NOTE**: Totally missed the section on 'go back' functionality, but I'm happy to discuss how this would be really easy to implement given the state management pattern. Basically, it boils down to adding a list/stack to the context,  pushing via `set_state()`, and pop via a new method `go_back()`
+
 1. **Robust User Input Handling**:
    - **Current Issue**: Right now, we kind of expect that users will always enter the right stuff after just one prompt. There is some error handling here and there, but it's inconsistent.
    - **Fix**: We could beef up the error handling, and maybe put this logic into the `IO` class to avoid repeating ourselves.
